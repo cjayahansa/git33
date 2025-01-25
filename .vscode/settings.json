@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "java.format.settings.url": "eclipse-formatter.xml",
+    "prettier.bracketSameLine": true
+}
