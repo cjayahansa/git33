@@ -7,63 +7,37 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet"
         />
-        <style>
-            p {
-                font-family: Roboto, arial;
-            }
-            .frontimage {
-                width: 300px;
-                display: block;
-            }
-
-            /* .video-priveiw {
-                width: 300px;
-                display: inline-block;
-                vertical-align: top;
-                margin: 5px;
-            } */
-            .text-title {
-                margin-top: 0;
-                font-size: 15px;
-                font-weight: 500px;
-                line-height: 20px;
-            }
-
-            .video-oner {
-                width: 50px;
-                height: 50px;
-                border-radius: 50%;
-                display: inline-block;
-                vertical-align: top;
-            }
-            .video-oner0 {
-                display: inline-block;
-                width: 50;
-            }
-            .text-title0 {
-                display: inline-block;
-                vertical-align: top;
-                margin-left: 5px;
-
-                width: 240px;
-            }
-            .thumbnall-row {
-                margin-bottom: 12px;
-            }
-            .video-grid {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 15px;
-                row-gap: 40px;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="header.css" />
     </head>
     <body>
-        <!-- <input type="text"> -->
+        <div class="header">
+            <div class="left-header">left</div>
+            <div class="middle-header">
+                <input type="text" />
+                <button class="search-button">
+                    <img src="search.png" />
+                    <div class="tooltips">search</div>
+                </button>
+            </div>
+            <div class="right-header">right</div>
+        </div>
+        <div class="sidebare">
+            <div class="sidebar-iten">
+                <div>home</div>
+            </div>
+            <div class="sidebar-iten"><div>home2</div></div>
+            <div class="sidebar-iten"><div>home3</div></div>
+            <div class="sidebar-iten"><div>home4</div></div>
+            <div class="sidebar-iten"><div>home5</div></div>
+            <div class="sidebar-iten"><div>home7</div></div>
+        </div>
+
         <div class="video-grid">
             <div class="video-priveiw">
                 <div class="thumbnall-row">
                     <img class="frontimage" src="4ts/evcrt1qa28b11.jpg" />
+                    <div class="video-time">1.35</div>
                 </div>
                 <div>
                     <div class="video-oner0">

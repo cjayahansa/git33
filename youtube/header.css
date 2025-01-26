@@ -1,0 +1,78 @@
+.header {
+    position: fixed;
+    height: 50px;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+}
+.left-header {
+    background-color: lightblue;
+    width: 150px;
+}
+.middle-header {
+    background-color: lightpink;
+    flex: 1;
+    margin-left: 30px;
+    width: 300px;
+}
+.right-header {
+    background-color: lightblue;
+    width: 150px;
+}
+.sidebare {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: lightcoral;
+    width: 75px;
+}
+body {
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.sidebar-iten {
+    background-color: lightseagreen;
+    height: 78px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-iten:hover {
+    background-color: aqua;
+}
+
+/* .sidebar-item img{
+    mehema gahuwa ma wenne sidebar class eka athule 
+    thiyana okkoma img walata meka add wenawa
+} */
+.sidebar-iten div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+.search-button {
+    position: relative;
+}
+.search-button .tooltips {
+    position: absolute;
+    background-color: aquamarine;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 9px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.search-button:hover .tooltips {
+    opacity: 1;
+}
